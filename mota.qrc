@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/mota">
+        <file>pictures/background.bmp</file>
+        <file>pictures/blue_door.bmp</file>
+        <file>pictures/down_00.png</file>
+        <file>pictures/down_01.png</file>
+        <file>pictures/downstairs.bmp</file>
+        <file>pictures/left_01.png</file>
+        <file>pictures/monster_00.png</file>
+        <file>pictures/monster_01.png</file>
+        <file>pictures/monster_02.png</file>
+        <file>pictures/monster_03.png</file>
+        <file>pictures/monster_04.png</file>
+        <file>pictures/monster_05.png</file>
+        <file>pictures/monster_06.png</file>
+        <file>pictures/red_door.bmp</file>
+        <file>pictures/right_01.png</file>
+        <file>pictures/untitled.png</file>
+        <file>pictures/up_00.png</file>
+        <file>pictures/upstairs.png</file>
+        <file>pictures/wall.bmp</file>
+        <file>pictures/yellow_door.bmp</file>
+        <file>pictures/blue_key.png</file>
+        <file>pictures/big_medcine.png</file>
+        <file>pictures/red_key.png</file>
+        <file>pictures/small_medcine.png</file>
+        <file>pictures/yellow_key.png</file>
+        <file>pictures/merchant.png</file>
+        <file>pictures/shop_message.png</file>
+        <file>pictures/shop_background.png</file>
+    </qresource>
+</RCC>
