@@ -28,5 +28,22 @@
         <file>pictures/merchant.png</file>
         <file>pictures/shop_message.png</file>
         <file>pictures/shop_background.png</file>
+        <file>pictures/boss.png</file>
+        <file>pictures/monster_07.png</file>
+        <file>pictures/monster_08.png</file>
+        <file>pictures/monster_09.png</file>
+        <file>pictures/monster_12.png</file>
+        <file>pictures/monster_13.png</file>
+        <file>pictures/monster_14.png</file>
+        <file>pictures/monster_17.png</file>
+        <file>pictures/monster_18.png</file>
+        <file>pictures/monster_19.png</file>
+        <file>pictures/monster_10.png</file>
+        <file>pictures/monster_11.png</file>
+        <file>pictures/monster_15.png</file>
+        <file>pictures/monster_16.png</file>
+        <file>pictures/monster_20.png</file>
+        <file>pictures/red_stone.png</file>
+        <file>pictures/blue_stone.png</file>
     </qresource>
 </RCC>

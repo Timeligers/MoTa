@@ -35,7 +35,7 @@ public:
     void shopping();
 
     mainrole Superman;
-    monsters Mon[6];
+    monsters Mon[22];
 
     shop Shop;
 
