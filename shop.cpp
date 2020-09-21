@@ -9,7 +9,7 @@ shop::shop(QWidget * parent)
     :QWidget(parent)
 {
     num=1;
-    this->setFixedSize(900,550);
+    this->setFixedSize(1000,550);
     setWindowModality(Qt::ApplicationModal);//设置模态窗口。
 
     mygold = new QLabel(this);
@@ -39,8 +39,16 @@ shop::shop(QWidget * parent)
             if(j==1)
                 pus[i][j]->move(400,40*i+50);
             if(j==2)
-                pus[i][j]->move(800,40*i+50);
+                pus[i][j]->move(850,40*i+50);
         }
+}
+
+void shop::init()
+{
+    num=1;
+    arrow->move(250,90);
+    conversation->setText("你要挑选什么商品呢？");
+    update();
 }
 
 void shop::getgold(int gold)
@@ -55,7 +63,7 @@ void shop::paintEvent(QPaintEvent*)
     QPixmap pix;
     p.save();
     pix.load(":/mota/pictures/shop_background.png");
-    p.drawPixmap(-30,-15,1000,600,pix);
+    p.drawPixmap(-30,-15,1100,600,pix);
     pix.load(":/mota/pictures/merchant.png");
     p.drawPixmap(75,250,100,100,pix);
     pix.load(":/mota/pictures/shop_message.png");
@@ -89,10 +97,6 @@ void shop::keyReleaseEvent(QKeyEvent* event)
     }
     if(event->key()==Qt::Key_Escape)
     {
-        num=1;
-        arrow->move(250,90);
-        conversation->setText("你要挑选什么商品呢？");
-        update();
         this->hide();
     }
     if(event->key()==Qt::Key_Return)
