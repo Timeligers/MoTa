@@ -13,6 +13,7 @@ public:
     int golden;
     int Level;
     int EXP;
+    int EXP_To_LevelUP;
     int floor;
     int X;
     int Y;
@@ -21,7 +22,7 @@ public:
     double Crit_damage;//暴击伤害。
     double Crit;//暴击率。
     double Feed_on_Blood;//吸血比例。
-    int Damage_Redu;//伤害减免。
+    //属性删除！！！
     double HP_Rec;//血量恢复；
 
     void level_up();
