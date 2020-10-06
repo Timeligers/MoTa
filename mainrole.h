@@ -22,7 +22,6 @@ public:
     double Crit_damage;//暴击伤害。
     double Crit;//暴击率。
     double Feed_on_Blood;//吸血比例。
-    //属性删除！！！
     double HP_Rec;//血量恢复；
 
     void level_up();

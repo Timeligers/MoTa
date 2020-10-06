@@ -1,6 +1,6 @@
 #ifndef MONSTERS_H
 #define MONSTERS_H
-
+#include <QPixmap>
 
 class monsters
 {
@@ -12,7 +12,7 @@ public:
     int HP;
     int golden;
     int EXP;
-
+    QPixmap pix;
     void mon(int i);
 };
 

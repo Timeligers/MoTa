@@ -29,13 +29,17 @@ SOURCES += \
         map.cpp \
     mainrole.cpp \
     monsters.cpp \
-    shop.cpp
+    shop.cpp \
+    monsterlist.cpp \
+    monsterlist_item.cpp
 
 HEADERS += \
         map.h \
     mainrole.h \
     monsters.h \
-    shop.h
+    shop.h \
+    monsterlist.h \
+    monsterlist_item.h
 
 FORMS += \
         map.ui
