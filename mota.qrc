@@ -43,7 +43,7 @@
         <file>pictures/monster_15.png</file>
         <file>pictures/monster_16.png</file>
         <file>pictures/monster_20.png</file>
-        <file>pictures/red_stone.png</file>
         <file>pictures/blue_stone.png</file>
+        <file>pictures/red_stone.png</file>
     </qresource>
 </RCC>
